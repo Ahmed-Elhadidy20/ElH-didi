@@ -1,0 +1,22 @@
+let title =  "Elzero",
+ description = "ElzeroWebschool",
+  Data = 25 / 1;
+let markUp = (`
+  <div class = "card">
+  <div class ="chlid">
+  <h2>${title}</h2>
+  <p>${description}</p>
+  <span>${Data}</span>
+  </div>
+  </div>
+  `)
+console.log(markUp)
+let markUp2 = `
+        <div class="card">
+        <div class="child">
+        <h2>Elzero</h2>
+        <p>Elzero Web School</p>
+        </div>
+        </div>
+        `;
+document.write(markUp2);

@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: "open Sans",sans-serif;
+    font-size: 18px;
+}
+.container {
+margin: 20px 0;
+width: 960px;
+}
+
+.container .color-switcher {
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container .color-switcher li{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.container .color-switcher li:first-child{
+    background-color: crimson;
+}
+.container .color-switcher li:nth-child(2){
+    background-color: green;
+}
+.container .color-switcher li:nth-child(3){
+    background-color: blue;
+}
+.container .color-switcher li:nth-child(4){
+    background-color: black;
+}
+.container h2 {
+    color:crimson;
+}
+.container div{
+    background-color: crimson;
+    padding: 20px;
+    color: #fff;
+}
+.red .container h2 {
+    color:crimson;
+}
+.red .container div{
+    background-color: crimson;
+    padding: 20px;
+    color: #fff;
+}
+.green .container h2 {
+    color:green;
+}
+.green .container div{
+    background-color: green;
+    padding: 20px;
+    color: #fff;
+}
+.blue .container h2 {
+    color:blue;
+}
+.blue .container div{
+    background-color: blue;
+    padding: 20px;
+    color: #fff;
+}
+.black .container h2 {
+    color:black;
+}
+.black .container div{
+    background-color: black;
+    padding: 20px;
+    color: #fff;
+}
+
+.zero {
+
+    color: red;
+}
+
+
+.class-one h1{
+    color: red;
+}
+.class-one p{
+    color: red;
+}
+.class-Tow h1{
+    color: gold;
+}
+.class-Tow p{
+    color: gold;
+}
+.class-Three h1{
+    color: green;
+}
+.class-Three p{
+    color: green;
+}
+.class-Four h1{
+    color: blue;
+}
+.class-Four p{
+    color: blue;
+}
+.class-Five h1{
+    color: yellowgreen;
+}
+.class-Five p{
+    color: yellowgreen;
+}
